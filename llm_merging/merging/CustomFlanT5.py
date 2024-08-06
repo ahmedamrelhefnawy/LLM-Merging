@@ -5,7 +5,7 @@ from llm_merging.merging.Merges import Merges
 from peft import get_peft_model, set_peft_model_state_dict
 
 
-class OurMethodFlanT5Avg(Merges):
+class CustomFlanT5(Merges):
     def __init__(self, name):
         super().__init__(name)
 
